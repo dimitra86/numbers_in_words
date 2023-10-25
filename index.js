@@ -1,12 +1,6 @@
-let a=123.16;
-let Num=Math.trunc(a);
-let aKopeika=Math.round((a-Num)*100);
-let nds=a*20/120;
-function changeWords(a){
-  let words='';
-  return a;
+const num = document.querySelector('.number');
+const changeBtn = document.querySelector('.changeBtn');
+
+changeBtn.onclick = function (event) {
+  console.log(num.value);
 }
-console.log(a);
-console.log(nds);
-console.log(Num);
-console.log(aKopeika);
